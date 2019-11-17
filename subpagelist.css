@@ -1,0 +1,264 @@
+.subbig {
+      width: 1500px;
+      margin: 50px auto;
+      height: 1200px;
+    }
+    .subleft {
+      float: left;
+      position: static;
+      text-align: center;
+      display: inline-block;
+      width: 200px;
+      height: auto;
+      margin-top: 20px;
+    }
+    .subright {
+      position: static;
+      text-align: center;
+      width: 1150px;
+      padding-left: 100px;
+      height: auto;
+      display: inline-block;
+    }
+    .ltitle {
+      text-align: center;
+      background-color: #CED8F6;
+      height: 80px;
+      padding:15px 0;
+      font-size: 40px;
+      font-family: 'Do Hyeon', sans-serif;
+    }
+    .rtitle{
+      background-image: url("코마마크.png");
+      background-position: right;
+      background-repeat: no-repeat;
+      height: 100px;
+    }
+    .rtitle h2{
+      padding:28px 0;
+      display: inline-block;
+      font-size: 2rem;
+      float: left;
+      text-align: left;
+      color:#6699ff;
+      border-bottom: 1px solid #3366ff;
+      width: 1050px;
+      margin-bottom: 50px;
+    }/*
+    .freedom , .lmenu {
+      font-size: 25px;
+    }
+    .freedom:link {
+      color: black; text-decoration: none;
+    }
+    .freedom:visited {
+        color: black; text-decoration: underline;
+    }
+    .freedom:hover {
+        color: black; text-decoration: none;
+    }
+
+    .lmenu:link {
+      color: black; text-decoration: none;
+    }
+    .lmenu:visited {
+        color: black; text-decoration: underline;
+    }
+    .lmenu:hover {
+        color: black; text-decoration: none;
+    }
+    .rmain {
+      display: block;
+      height: 60%;
+      border: solid 5px #444444;
+    }*/
+    .lmain {
+      margin: 0 auto;
+      text-align: center;
+    }
+    .lmain ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      width: 200px;
+      background-color: #FFFFFF;
+    }
+
+    .lmain ul li {
+      padding: 5px 0;
+      font-size: 20px;
+      border-bottom: solid 1px #A4A4A4;
+      font-family: 'Do Hyeon', sans-serif;
+      /*display: block;*/
+
+    }
+    .leftul li a {
+      display: block;
+      color: #000;
+      padding: 8px 16px;
+      text-decoration: none;
+       /*border: solid 2px  #444444;
+      margin-bottom: 5px;*/
+    }
+    .leftul li a:hover:not(.active) {
+      background-color: #555;
+      color: white;
+    }
+    .btnmn:link {
+      color: black; text-decoration: none;
+    }
+    .btnmn:visited {
+        color: black; text-decoration: underline;
+    }
+    .btnmn:hover {
+        color: black; text-decoration: none;
+    }
+/* 갤러리 리스트 부분 추후 수정 필요*/
+.gallery {
+  width: 240px;
+  height: auto;
+}
+
+.gallery:hover img{
+  transform:  scale(1.2);
+}
+
+.gallery img {
+  width: 240px;
+  height: 180px;
+  object-fit: contain;
+  transition: transform .5s;
+}
+.gallery a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  overflow: hidden;
+}
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* 메인 컨텐츠 리스트 조정 */
+.sub_maincontents{
+  border-collapse: collapse;
+}
+.sub_maincontents th{
+  padding:12px 0;
+  border-bottom: 1px solid #ccc;
+  border-top: 2px solid #ccc;
+  background: #f2f2f2;
+}
+.sub_maincontents tr{
+  vertical-align: middle;
+}
+.sub_maincontents td{
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.sub_maincontents a{
+  text-decoration: none;
+  color: #000;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.imgTF{
+  display: inline-block;
+  content: "";
+  width:18px;
+  height:18px;
+  margin: 0 5px;
+  background-image: url("imgTF.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+.fileTF{
+  display: inline-block;
+  content: "";
+  width:15px;
+  height:15px;
+  margin: 0 5px;
+  background-image: url("file.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+/*
+.sub_maincontents_title img{
+  width:14px;
+  height: 14px;
+  vertical-align: middle;
+  margin: 0 5px;
+}*/
+.write{
+  border-bottom: 2px solid #ccc;
+  height:52px;
+}
+.write span{
+  float: right;
+  margin:10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding:5px 5px 6px 5px;
+  font-size: 14px;
+}
+.write a{
+  text-decoration: none;
+  color:#000;
+}
+
+/* 페이지 리스트 조정 */
+.pagelist{
+  padding:10px 0;
+}
+.listnumber li{
+  list-style: none;
+  display: inline-block;
+  padding: 0 5px;
+}
+.listnumber a{
+  text-decoration: none;
+  color:#000;
+}
+.listnumber .selected{
+  font-weight: bold;
+  color:#3366ff;
+}

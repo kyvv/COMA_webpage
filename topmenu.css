@@ -198,7 +198,7 @@
   bottom: -150px;
   font-family: 'Poiret One', cursive;
 }
-#footer a{
+.footer a{
   color : #3385ff;
   text-decoration:none;
 }

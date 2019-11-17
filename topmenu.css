@@ -198,6 +198,10 @@
   bottom: -150px;
   font-family: 'Poiret One', cursive;
 }
+#footer a{
+  color : #3385ff;
+  text-decoration:none;
+}
 .footer{
   position: relative;
   content: "";

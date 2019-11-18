@@ -25,14 +25,10 @@
   margin: 50px;
   position: relative;
 }
-#sideimg{
+#sidecallendar{
   display: inline-block;
-  border: 1px solid black;
-  width:300px;
-  height:440px;
-  margin-right: 50px;
-  float: right;
-  margin-top: 50px;
+  position: absolute;
+  margin-left: 50px;
 }
 #name{
   padding-top: 5px;
@@ -196,7 +192,7 @@
     width: 100%;
   }
 }
-/* 메인 헤더 밑 이미지 부분 */
+/* 메인 헤더 밑 이미지 슬라이더 부분 */
 @keyframes slidy {
 0% { left: 0%; }
 20% { left: 0%; }

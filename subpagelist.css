@@ -1,7 +1,7 @@
 .subbig {
       width: 1500px;
       margin: 50px auto;
-      height: 1200px;
+      height: 2000px;
     }
     .subleft {
       float: left;
@@ -113,7 +113,7 @@
     .btnmn:hover {
         color: black; text-decoration: none;
     }
-/* 소개 페이지 이미지 부분 */
+    /* 소개 페이지 이미지 부분 */
     .pre_img_lefttop{
       float: left;
       display: inline-block;
@@ -282,4 +282,59 @@
 .listnumber .selected{
   font-weight: bold;
   color:#3366ff;
+}
+
+/* 글 표시 부분 */
+.article table{
+  border-collapse: collapse;
+}
+.article_top .article_comp{
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+  background: #e6e6e6;
+  width:100px;
+  padding: 10px 0;
+}
+.article_top td {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  width: 150px;
+  text-align: left;
+  padding: 10px 0 10px 10px;
+}
+.article .article_title{
+  width: 800px;
+}
+.article tbody #content p{
+  text-align: left;
+  height: auto;
+  margin: 20px;
+}
+.article tbody #content img{
+  display: block;
+
+}
+.article tbody #file{
+  text-align: left;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+.article tbody #file a{
+  text-decoration: none;
+  color: black;
+}
+.tothelist{
+  border-radius: 10px;
+  background: #ccc;
+  display: inline-block;
+  padding :8px 15px;
+  float: right;
+  margin: 10px;
+}
+.tothelist a{
+  text-decoration: none;
+  color: black;
 }
